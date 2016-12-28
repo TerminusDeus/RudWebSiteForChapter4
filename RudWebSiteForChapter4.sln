@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Express 14 for Web
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "RudWebSiteForChapter4", "..\..\WebSites\RudWebSiteForChapter4\", "{C346E1A0-8141-483E-B419-C34F20E93993}"
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "RudWebSiteForChapter4", "..\..\WebSites\RudWebSiteForChapter4\RudWebSiteForChapter4\", "{C346E1A0-8141-483E-B419-C34F20E93993}"
 	ProjectSection(WebsiteProperties) = preProject
 		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.6.2"
 		Debug.AspNetCompiler.VirtualPath = "/localhost_35025"
