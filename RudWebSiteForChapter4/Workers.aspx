@@ -176,7 +176,6 @@
                         </FooterTemplate>
                     </asp:TemplateField>
                 </Columns>
-
                 <script runat="server">
 
                     void CommandBtn_Click(Object sender, CommandEventArgs e)

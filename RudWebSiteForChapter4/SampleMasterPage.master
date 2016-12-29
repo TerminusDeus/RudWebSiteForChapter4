@@ -1,0 +1,32 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="SampleMasterPage.master.cs" Inherits="SampleMasterPage" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title></title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div style="height: 231px; width: 448px">
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+            Simple master page template
+        
+        </asp:ContentPlaceHolder>
+        <br />
+        <br />
+        <br />
+        <asp:GridView ID="GridView1" runat="server" Height="145px" Width="429px">
+        </asp:GridView>
+        <br />
+        <br />
+        <br />
+        <br />
+    </div>
+    </form>
+</body>
+</html>
