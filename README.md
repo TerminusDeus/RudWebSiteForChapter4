@@ -1,5 +1,5 @@
 # RudWebSiteForChapter4
-##Simple web forms project (Basic CRUD Functionality with the Entity Framework)
+##Simple web forms project (basic CRUD functionality with the entity framework)
 #### - Organization DB
 #### - base first / edmx generation
 #### - user controls usage
