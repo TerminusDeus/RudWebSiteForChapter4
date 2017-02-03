@@ -71,7 +71,7 @@
         }
     </style>
 </head>
-<body>
+<body style="background-image:url(http://static.tumblr.com/379ccba5a68397e5366956db60585819/jfvf6fl/0Mmo9jcu7/tumblr_static_9859sbyjy1gcg4owogwc4gkss.png)";>
     <form id="form1" runat="server">
         <div>
             <asp:GridView ID="myGridview" runat="server" AutoGenerateColumns="false"

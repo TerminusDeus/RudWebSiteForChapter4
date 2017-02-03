@@ -1,0 +1,110 @@
+﻿/* Based on http://webcodius.ru/recepty-dlya-sajta/kak-razmestit-elementy-spiska-gorizontalno-ili-gorizontalnoe-menyu-s-pomoshhyu-css.html */
+
+/* элементы с идентификатором id, после которых есть элемент li */
+/* элементы с идентификатором id */
+#menu, #menu li {
+    margin: 0;
+    padding: 0;
+}
+
+ul{
+    align-items:flex-start;
+}
+
+/* элементы с идентификатором menu */
+#menu {
+    text-align: center;
+    text-align: right;
+}
+
+    #menu li {
+        display: inline-block;
+        text-align: center;
+        width: 20%;
+        -webkit-transform: skewX(-45deg); /* Трансформация Для Safari и Chrome */
+        -moz-transform: skewX(-45deg); /* Трансформация Для Firefox */
+        -o-transform: skewX(-45deg); /* Трансформация Для Opera */
+        -ms-transform: skewX(-45deg); /* Трансформация Для IE */
+        transform: skewX(-45deg); /* Трансформация CSS3 */
+        background: #03658e;
+    }
+        /* элементы с идентификатором menu, после которых есть элемент li, после которого a */
+        #menu li a {
+            display: block;
+            padding: 5px 15px;
+            color: #fff;
+            font-size: 150%;
+            text-decoration: none;
+            margin-left: 5px;
+            cursor:pointer;
+            -webkit-transform: skewX(45deg); /* Трансформация Для Safari и Chrome */
+            -moz-transform: skewX(45deg); /* Трансформация Для Firefox */
+            -o-transform: skewX(45deg); /* Трансформация Для Opera */
+            -ms-transform: skewX(45deg); /* Трансформация Для IE */
+            transform: skewX(45deg); /* Трансформация CSS3 */
+        }
+
+    /* элементы с идентификатором menu, после которых есть элемент a*/
+    /* псевдоселектор hover : пользователь наводит на элемент мышью */
+    #menu a:hover {
+        -webkit-transform: skewX(45deg); /* Трансформация Для Safari и Chrome */
+        -moz-transform: skewX(45deg); /* Трансформация Для Firefox */
+        -o-transform: skewX(45deg); /* Трансформация Для Opera */
+        -ms-transform: skewX(45deg); /* Трансформация Для IE */
+        transform: skewX(45deg); /* Трансформация CSS3 */
+    }
+
+    /* элементы с идентификатором menu, после которых есть элемент li*/
+    /* псевдоселектор hover : пользователь наводит на элемент мышью */
+    #menu li:hover {
+        background: #FF900F;
+        -webkit-transform: skewX(-45deg); /* Трансформация Для Safari и Chrome */
+        -moz-transform: skewX(-45deg); /* Трансформация Для Firefox */
+        -o-transform: skewX(-45deg); /* Трансформация Для Opera */
+        -ms-transform: skewX(-45deg); /* Трансформация Для IE */
+        transform: skewX(-45deg); /* Трансформация CSS3 */
+    }
+
+ /* элементы с идентификатором menu*/
+.menu {
+    text-align: right;
+}
+
+    /*все a внутри элементов с классом menu*/
+    .menu a {
+        background: #FF900F;
+        width: 100%;
+        text-align: justify; /*горизонтальное выравнивание текста в пределах элемента.*/
+        line-height: 1.5em;
+        height: 1.5em;
+        /* overflow: hidden; /*управляет отображением содержания блочного элемента, если оно 
+        целиком не помещается и выходит за область заданных размеров.*/
+        /* hidden - Отображается только область внутри элемента, остальное будет скрыто.*/
+    }
+    /*все div внутри элементов с классом menu*/
+    .menu div {
+        background: blue;
+        *zoom: 1;
+    }
+
+    /*все a внутри элементов с классом menu*/
+    .menu a {
+        color: black;
+    }
+
+    .newBlock {
+    width: 200px;
+    background: #ccc;
+    padding: 5px;
+    padding-right: 20px;
+    border: 5px ridge red;
+    float: left;
+}
+
+.letter {
+    color: darkorange; /* Красный цвет символов */
+    font-size: 200%; /* Размер шрифта в процентах */
+    font-family: serif; /* Шрифт с засечками */
+    position: relative; /* Относительное позиционирование */
+    top: 5px; /* Сдвиг сверху */
+}
