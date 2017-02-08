@@ -7,8 +7,8 @@ body,
 html {
     margin: 0;
     padding: 0;
-    color: #000;
-    background: #a7a09a;
+    color: #000
+    /*background: #a7a09a;*/
 }
 
 /*задание ширины и центрированием области содержания*/
@@ -148,4 +148,12 @@ h2 {
 
     #footer p {
         margin: 0;
+    }
+    
+    .dropdownMenuArefItems{
+        color: darkorange;
+        text-decoration: underline; /* underline */
+        font-size: medium;
+        font-style: oblique;
+        cursor:pointer
     }

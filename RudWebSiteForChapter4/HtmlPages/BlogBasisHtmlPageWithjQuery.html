@@ -1,0 +1,156 @@
+﻿<!DOCTYPE html>
+<!-- Эта страница создана на основе http://ruseller.com/lessons.php?rub=2&id=1230 -->
+
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Скелет блога</title>
+    <meta charset="utf-8" />
+    <link href="../Content/CustomStyles/cssAllPageParts.css" rel="stylesheet" />
+    <link href="../Content/CustomStyles/cssATagDefault.css" rel="stylesheet" />
+    <link href="../Content/CustomStyles/cssNavPanel.css" rel="stylesheet" />
+    <link href="../Content/Bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+</head>
+<body>
+    <div id="wrap">
+        <div id="header">
+            <a>Записи программиста</a>
+            <p>Типичный блог программиста .net</p>
+        </div>
+        <!-- Навигационная панель -->
+        <div id="nav">
+            <!-- ul - неупорядоченный список -->
+            <ul id="menu">
+                <li><a href="#">Главная</a></li>
+                <li><a href="#">Новости</a></li>
+                <li><a href="#">Контакты</a></li>
+                <li><a href="#">О сайте</a></li>
+            </ul>
+        </div>
+
+        <div id="main">
+            <div>
+                <header>
+                    <h1>Заголовок статьи 1</h1>
+                </header>
+                <article>
+                    Содержание статьи
+                </article>
+            </div>
+            <hr />
+            <div>
+                <header class="btn">
+                    <h1>Заголовок статьи 2</h1>
+                </header>
+                <article>
+                    Содержание статьи
+                </article>
+            </div>
+            <hr />
+            <div>
+                <header>
+                    <h1>Заголовок статьи 3</h1>
+                </header>
+                <article>
+                    Содержание статьи
+                </article>
+            </div>
+
+
+            <div class="dropdown">
+                <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                    Dropdown
+                    <span class="caret"></span>
+                </button>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                    <li><a href="#">Action</a></li>
+                    <li><a href="#">Another action</a></li>
+                    <li><a href="#">Something else here</a></li>
+                    <li role="separator" class="divider"></li>
+                    <li><a href="#">Separated link</a></li>
+                </ul>
+            </div>
+
+            <!--http://www.w3schools.com/bootstrap/bootstrap_dropdowns.asp-->
+            <div class="dropdown">
+                <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">
+                    Dropdown Example
+                    <span class="caret"></span>
+                </button>
+                <ul class="dropdown-menu">
+                    <li><a href="#">HTML</a></li>
+                    <li><a href="#">CSS</a></li>
+                    <li><a href="#">JavaScript</a></li>
+                </ul>
+            </div>
+
+
+
+        </div>
+
+        <div id="sidebar">
+            <h6>РУБРИКИ БЛОГА </h6>
+            <hr />
+            <ul id="bar" lang="ab">
+                <li><a href="#">ASP</a></li>
+                <li><a href="#">Unity3d</a></li>
+                <li><a href="#">Golang</a></li>
+                <li><a href="#">MSSQL</a></li>
+                <li><a href="#">Firebird SQL</a></li>
+                <li><a href="#">MySQL</a></li>
+                <li><a href="#">Обучающие материалы</a></li>
+                <li><a href="#">Delphi</a></li>
+            </ul>
+        </div>
+
+        <div id="footer">
+            <p id="change">Все начинается здесь.</p>
+            <!--twitter type button-->
+            <input id="Button1" type="button" value="Скрыть сайт" class="btn btn-warning" />
+            <input id="Button3" type="button" value="Дави на меня" class="btn btn-success" />
+
+            <select id="my_select" name="my_select" class="btn-sm alert-success">
+                <option value="1">one</option>
+                <option value="2">two</option>
+                <option value="3">three</option>
+            </select>
+
+        </div>
+
+
+        <div>
+            <p>
+                <label>
+                    <input type="checkbox" name="sortament" value="1">
+                    <span>Балка рукояти</span>
+                </label>
+            </p>
+            <p>
+                <label>
+                    <input type="checkbox" name="sortament" value="2">
+                    <span>Шестерня</span>
+                </label>
+            </p>
+            <p>
+                <label>
+                    <input type="checkbox" name="sortament" value="3">
+                    <span>Вал</span>
+                </label>
+            </p>
+            <p>
+                <label>
+                    <input type="checkbox" name="sortament" value="4">
+                    <span>Пимпочка</span>
+                </label>
+            </p>
+            <div><span>Пимпочка 666</span></div>
+        </div>
+
+    </div>
+
+    <script src="../Scripts/jquery-1.10.2.min.js"></script>
+    <script src="../Content/Bootstrap/js/bootstrap.min.js"></script>
+    <script src="../Content/CustomJS/CustomjQueryScripts.js"></script>
+
+</body>
+</html>
